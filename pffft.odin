@@ -1,11 +1,8 @@
 package pffft
 
 import "core:c"
-import "core:fmt"
-import "core:math"
-import "core:os"
 
-foreign import lib "pffft/libpffft.a"
+foreign import lib "libpffft.a"
 
 Setup :: distinct rawptr
 
